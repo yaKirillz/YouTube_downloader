@@ -1,0 +1,16 @@
+﻿<Window x:Class="Downloader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Downloader"
+        mc:Ignorable="d"
+        Title="Video Downloader" Height="450" Width="800" WindowStyle="ThreeDBorderWindow">
+    <Grid x:Name="MainGrid" Background="Gray">
+        <Button Content="Download" HorizontalAlignment="Left" Height="52" Margin="541,336,0,0" VerticalAlignment="Top" Width="194"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="35,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="700"/>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="35,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"><Run Language="ru-ru" Text="Вставьте ссылку:"/></TextBlock>
+        <ComboBox HorizontalAlignment="Left" Margin="35,114,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="35,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"><Run Language="ru-ru" Text="Качество:"/></TextBlock>
+    </Grid>
+</Window>
